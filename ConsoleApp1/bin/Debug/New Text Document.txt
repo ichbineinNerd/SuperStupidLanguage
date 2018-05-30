@@ -1,0 +1,14 @@
+-Take Input as File
+-Convert to Command Array
+-Get Meaning Of Commands
+	-split into words array
+	
+	-if (first Word is "SET")
+		-take next word as variable name,
+		-then a "to" sign
+		-then the value.
+	-	
+	-
+	-
+	
+	
