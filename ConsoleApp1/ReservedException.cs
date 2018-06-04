@@ -22,4 +22,24 @@ namespace ConsoleApp1
 		{
 		}
 	}
+	
+	[Serializable]
+	internal class NaNException : Exception
+	{
+		public NaNException() : base()
+		{
+		}
+
+		public NaNException(string message) : base(message)
+		{
+		}
+
+		public NaNException(string message, Exception innerException) : base(message, innerException)
+		{
+		}
+
+		protected NaNException(SerializationInfo info, StreamingContext context) : base(info, context)
+		{
+		}
+	}
 }
